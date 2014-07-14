@@ -22,12 +22,15 @@ body{
 .sideNav{
     width: 28%;
     height: 300px;
+    z-index: 99;
     float: left;
+    position: absolute;
 }
+.mainContenido .sideNavSubmenu  { float: left; margin-left: 28%;}
+.mainContenido .contenido {float: right;}
 .sideNavSubmenu{
     width: 28%;
     height: 300px;
-    float: left;
     background: url(../images/bg.png) center top; background-repeat: no-repeat;
     overflow: scroll;
 }
@@ -35,7 +38,6 @@ body{
 .contenido{
     width: 44%;
     height: 300px;
-    float: right;
     overflow: scroll;
 }
 
