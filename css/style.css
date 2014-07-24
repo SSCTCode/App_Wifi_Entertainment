@@ -279,7 +279,6 @@ button.btnIntro{
 .btnCheckIn{
     margin-left: 4% !important;
     margin-right: auto !important;
-    height: 28px !important;
     width: 90% !important;
     text-align: center;
     -webkit-border-radius: 4px 4px 4px 4px;
@@ -296,7 +295,7 @@ button.btnIntro{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#990000', endColorstr='#6d0000',GradientType=0 ); /* IE6-9 */
 }
 .checkIn{
-    font-size: .9em !important;
+    font-size: .8em !important;
     text-shadow: none !important;
     font-weight: 300 !important;
     color: white;
